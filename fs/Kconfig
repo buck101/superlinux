@@ -36,7 +36,6 @@ source "fs/jfs/Kconfig"
 
 source "fs/xfs/Kconfig"
 source "fs/gfs2/Kconfig"
-source "fs/ocfs2/Kconfig"
 source "fs/nilfs2/Kconfig"
 
 endif # BLOCK
@@ -194,7 +193,6 @@ source "fs/cramfs/Kconfig"
 source "fs/squashfs/Kconfig"
 source "fs/freevxfs/Kconfig"
 source "fs/minix/Kconfig"
-source "fs/omfs/Kconfig"
 source "fs/hpfs/Kconfig"
 source "fs/romfs/Kconfig"
 source "fs/pstore/Kconfig"
