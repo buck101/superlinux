@@ -77,7 +77,6 @@ if BLOCK
 menu "CD-ROM/DVD Filesystems"
 
 source "fs/isofs/Kconfig"
-source "fs/udf/Kconfig"
 
 endmenu
 endif # BLOCK
@@ -187,7 +186,6 @@ source "fs/bfs/Kconfig"
 source "fs/efs/Kconfig"
 source "fs/jffs2/Kconfig"
 # UBIFS File system configuration
-source "fs/ubifs/Kconfig"
 source "fs/logfs/Kconfig"
 source "fs/cramfs/Kconfig"
 source "fs/squashfs/Kconfig"
@@ -195,7 +193,6 @@ source "fs/minix/Kconfig"
 source "fs/romfs/Kconfig"
 source "fs/pstore/Kconfig"
 source "fs/sysv/Kconfig"
-source "fs/ufs/Kconfig"
 source "fs/exofs/Kconfig"
 source "fs/f2fs/Kconfig"
 source "fs/efivarfs/Kconfig"
