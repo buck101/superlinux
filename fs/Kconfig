@@ -253,7 +253,6 @@ config NFS_COMMON
 	default y
 
 source "net/sunrpc/Kconfig"
-source "fs/ceph/Kconfig"
 source "fs/cifs/Kconfig"
 source "fs/ncpfs/Kconfig"
 source "fs/coda/Kconfig"
