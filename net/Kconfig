@@ -49,7 +49,6 @@ menu "Networking options"
 source "net/packet/Kconfig"
 source "net/unix/Kconfig"
 source "net/xfrm/Kconfig"
-source "net/iucv/Kconfig"
 
 config INET
 	bool "TCP/IP networking"
@@ -347,7 +346,6 @@ endif # WIRELESS
 source "net/wimax/Kconfig"
 
 source "net/rfkill/Kconfig"
-source "net/ceph/Kconfig"
 source "net/nfc/Kconfig"
 
 
