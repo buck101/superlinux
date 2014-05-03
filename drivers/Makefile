@@ -131,7 +131,6 @@ obj-$(CONFIG_SSB)		+= ssb/
 obj-$(CONFIG_BCMA)		+= bcma/
 obj-$(CONFIG_VHOST_RING)	+= vhost/
 obj-$(CONFIG_VLYNQ)		+= vlynq/
-obj-$(CONFIG_STAGING)		+= staging/
 obj-y				+= platform/
 #common clk code
 obj-y				+= clk/
