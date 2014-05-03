@@ -341,8 +341,6 @@ endif # WIRELESS
 
 
 source "net/rfkill/Kconfig"
-source "net/nfc/Kconfig"
-
 
 endif   # if NET
 
