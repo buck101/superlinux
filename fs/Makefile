@@ -90,7 +90,6 @@ obj-$(CONFIG_NLS)		+= nls/
 obj-$(CONFIG_SYSV_FS)		+= sysv/
 obj-$(CONFIG_CIFS)		+= cifs/
 obj-$(CONFIG_NTFS_FS)		+= ntfs/
-obj-$(CONFIG_EFS_FS)		+= efs/
 obj-$(CONFIG_JFFS2_FS)		+= jffs2/
 obj-$(CONFIG_LOGFS)		+= logfs/
 obj-$(CONFIG_ROMFS_FS)		+= romfs/
