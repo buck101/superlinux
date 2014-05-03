@@ -326,7 +326,6 @@ endmenu
 
 endmenu
 
-source "net/irda/Kconfig"
 source "net/bluetooth/Kconfig"
 source "net/rxrpc/Kconfig"
 
