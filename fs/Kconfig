@@ -37,7 +37,6 @@ source "fs/jfs/Kconfig"
 source "fs/xfs/Kconfig"
 source "fs/gfs2/Kconfig"
 source "fs/ocfs2/Kconfig"
-source "fs/btrfs/Kconfig"
 source "fs/nilfs2/Kconfig"
 
 endif # BLOCK
@@ -182,12 +181,9 @@ menuconfig MISC_FILESYSTEMS
 
 if MISC_FILESYSTEMS
 
-source "fs/adfs/Kconfig"
-source "fs/affs/Kconfig"
 source "fs/ecryptfs/Kconfig"
 source "fs/hfs/Kconfig"
 source "fs/hfsplus/Kconfig"
-source "fs/befs/Kconfig"
 source "fs/bfs/Kconfig"
 source "fs/efs/Kconfig"
 source "fs/jffs2/Kconfig"
@@ -256,7 +252,6 @@ source "net/sunrpc/Kconfig"
 source "fs/cifs/Kconfig"
 source "fs/ncpfs/Kconfig"
 source "fs/coda/Kconfig"
-source "fs/afs/Kconfig"
 
 endif # NETWORK_FILESYSTEMS
 
