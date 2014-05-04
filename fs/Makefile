@@ -86,6 +86,7 @@ obj-$(CONFIG_JFFS2_FS)		+= jffs2/
 obj-$(CONFIG_AUTOFS4_FS)	+= autofs4/
 obj-$(CONFIG_FUSE_FS)		+= fuse/
 obj-$(CONFIG_SUN_OPENPROMFS)	+= openpromfs/
+obj-$(CONFIG_XFS_FS)            += xfs/
 obj-$(CONFIG_HOSTFS)		+= hostfs/
 obj-$(CONFIG_HPPFS)		+= hppfs/
 obj-$(CONFIG_DEBUG_FS)		+= debugfs/
