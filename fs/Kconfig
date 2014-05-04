@@ -68,7 +68,6 @@ source "fs/fuse/Kconfig"
 menu "Caches"
 
 source "fs/fscache/Kconfig"
-source "fs/cachefiles/Kconfig"
 
 endmenu
 
