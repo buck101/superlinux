@@ -30,6 +30,7 @@ obj-$(CONFIG_L2TP)		+= l2tp/
 ifneq ($(CONFIG_VLAN_8021Q),)
 obj-y				+= 8021q/
 endif
+obj-$(CONFIG_IP_SCTP)		+= sctp/
 obj-$(CONFIG_WIRELESS)		+= wireless/
 obj-$(CONFIG_MAC80211)		+= mac80211/
 obj-$(CONFIG_NETLABEL)		+= netlabel/
@@ -37,6 +38,7 @@ obj-$(CONFIG_RFKILL)		+= rfkill/
 ifneq ($(CONFIG_DCB),)
 obj-y				+= dcb/
 endif
+obj-y				+= ieee802154/
 
 ifeq ($(CONFIG_NET),y)
 obj-$(CONFIG_SYSCTL)		+= sysctl_net.o

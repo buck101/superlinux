@@ -195,11 +195,13 @@ source "net/bridge/netfilter/Kconfig"
 
 endif
 
+source "net/sctp/Kconfig"
 source "net/l2tp/Kconfig"
 source "net/802/Kconfig"
 source "net/bridge/Kconfig"
 source "net/8021q/Kconfig"
 source "net/llc/Kconfig"
+source "net/ieee802154/Kconfig"
 source "net/sched/Kconfig"
 source "net/dcb/Kconfig"
 source "net/dns_resolver/Kconfig"
