@@ -179,7 +179,6 @@ menuconfig MISC_FILESYSTEMS
 
 if MISC_FILESYSTEMS
 
-source "fs/ecryptfs/Kconfig"
 source "fs/bfs/Kconfig"
 source "fs/jffs2/Kconfig"
 # UBIFS File system configuration
