@@ -34,7 +34,6 @@ config FS_MBCACHE
 source "fs/reiserfs/Kconfig"
 source "fs/jfs/Kconfig"
 
-source "fs/xfs/Kconfig"
 source "fs/gfs2/Kconfig"
 
 endif # BLOCK
@@ -73,8 +72,6 @@ endmenu
 
 if BLOCK
 menu "CD-ROM/DVD Filesystems"
-
-source "fs/isofs/Kconfig"
 
 endmenu
 endif # BLOCK
@@ -231,7 +228,6 @@ config NFS_COMMON
 
 source "net/sunrpc/Kconfig"
 source "fs/cifs/Kconfig"
-source "fs/coda/Kconfig"
 
 endif # NETWORK_FILESYSTEMS
 
