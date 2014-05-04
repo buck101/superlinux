@@ -41,8 +41,6 @@ source "drivers/media/pci/pluto2/Kconfig"
 source "drivers/media/pci/dm1105/Kconfig"
 source "drivers/media/pci/pt1/Kconfig"
 source "drivers/media/pci/mantis/Kconfig"
-source "drivers/media/pci/ngene/Kconfig"
-source "drivers/media/pci/ddbridge/Kconfig"
 endif
 
 endif #MEDIA_PCI_SUPPORT

@@ -8,8 +8,6 @@ obj-y        +=	ttpci/		\
 		dm1105/		\
 		pt1/		\
 		mantis/		\
-		ngene/		\
-		ddbridge/	\
 		b2c2/		\
 		saa7146/
 
