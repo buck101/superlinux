@@ -87,7 +87,6 @@ obj-$(CONFIG_SYSV_FS)		+= sysv/
 obj-$(CONFIG_CIFS)		+= cifs/
 obj-$(CONFIG_NTFS_FS)		+= ntfs/
 obj-$(CONFIG_JFFS2_FS)		+= jffs2/
-obj-$(CONFIG_LOGFS)		+= logfs/
 obj-$(CONFIG_ROMFS_FS)		+= romfs/
 obj-$(CONFIG_AUTOFS4_FS)	+= autofs4/
 obj-$(CONFIG_FUSE_FS)		+= fuse/
